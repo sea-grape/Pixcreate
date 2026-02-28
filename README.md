@@ -1,2 +1,2 @@
 # Pixcreate
-thank you Bechard
+homage to Bechard
