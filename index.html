@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pixcreate App</title>
+  </head>
+  <body>
+
+    <div id="root">
+      <h1>Pixcreate</h1>
+      <div id="grid-area"></div>
+      <div id="toolbar">
+          <input type="color" name="colourInput" id="colourInput">
+          <input 
+          type="number" 
+          name="dimInput" 
+          id="dimInput" 
+          min="2"
+          max="128"
+          step="1"
+          value="16"
+          />
+          <button id="applyDim">Set Grid</button>
+          <button id="showHideGrid">Show/Hide Grid</button>
+          <button id="eraserBtn">Eraser</button>
+          <button id="fillBtn">Fill</button>
+          <button id="clearBtn">Clear</button>
+          <button id="saveBtn">Save</button>
+      </div>
+  </div>
+  <script type="module" src="/main.js"></script>
+  </body>
+
+</html>
